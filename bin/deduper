@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+begin
+  require 'rubygems'
+  gem 'deduper'
+rescue LoadError
+end
+
+require 'deduper'
+
+Deduper::Runner.new.run

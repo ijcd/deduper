@@ -1,0 +1,3 @@
+source :rubygems
+
+gem "deduper", :path => "/Users/ijcd/work/deduper"
